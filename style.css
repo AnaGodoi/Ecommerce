@@ -44,7 +44,7 @@ nav li {
     display: flex;
     flex: 1;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 170px;
     margin-right: 50px;
 }
