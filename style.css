@@ -26,6 +26,17 @@ nav li {
     font-weight: 600;
 }
 
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #252b42;
+}
+nav a:hover {
+    color: #5956e9;
+}
+
 .botao-download {
     margin: 0 0 0 214px;
     border: none;
@@ -34,10 +45,16 @@ nav li {
     height: 70px;
     font-size: 20px;
     font-weight: 700;
-    color: #5956e9;
     border-radius: 10px;
+    transition: 1s all;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.botao-download a {
+    color: #5956e9;
+}
 
+.botao-download:hover {
+    transform: scale(1.1);
 }
 
 .principal {
@@ -72,16 +89,24 @@ nav li {
     height: 70px;
     font-size: 20px;
     font-weight: 700;
-    color: #fff;
+    
     border-radius: 10px;
     margin-top: 58px;
+    transition: 1s all;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+}
 
+.botao-dois:hover {
+    transform: scale(1.1);
+}
+
+.botao-dois a {
+    color: #fff;
 }
 
 .img-boneco {
-    display: inline;
     margin-top: -70px;
+    float: right;
 }
 
 .how-works {
@@ -97,7 +122,6 @@ nav li {
     flex: 1;
     justify-content: center;
     align-items: center;
-  
 }
 
 .texto-parte-dois {
@@ -128,14 +152,13 @@ nav li {
 
 .parte-tres {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     background: linear-gradient(72.77deg, #edeef6 11.72%, rgba(237, 238, 246, 0) 98.52%);
     border-radius: 50px;
     width: 1000px;
     margin: 100px auto 0;
 }
-
 
 .texto-parte-tres {
     width: 480px;
@@ -191,13 +214,13 @@ nav li {
     width: 800px;
     margin: 50px auto;
 }
-.texto-final{
+.texto-final {
     margin-top: 80px;
     font-weight: 800;
     font-size: 40px;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     margin: 0 auto 20px;
@@ -205,7 +228,7 @@ nav li {
     font-weight: 800;
 }
 
-.site{
-   color:#868686 ;
-   margin-left: 10px;
+.site {
+    color: #868686;
+    margin-left: 10px;
 }
