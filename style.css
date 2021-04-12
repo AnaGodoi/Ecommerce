@@ -41,9 +41,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 0 0 214px;
     border: none;
-    background-color: #fab8c3;
     width: 204px;
     height: 70px;
     font-size: 20px;
@@ -51,10 +49,19 @@ nav a:hover {
     border-radius: 10px;
     transition: 1s all;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
-    color: #5956e9;
-    font-weight: 700;
-}
 
+    font-weight: bold;
+}
+.botao-download.rosa {
+    color: #5956e9;
+    background-color: #fab8c3;
+    margin: 0 0 0 214px;
+}
+.botao-download.azul{
+    color: #fff;
+    background-color: #5956e9;
+
+}
 
 .botao-download:hover {
     transform: scale(1.1);
@@ -85,7 +92,10 @@ nav a:hover {
     color: #737373;
 }
 
-.botao-dois {
+/*.botao-dois {
+    display: flex;
+    align-items: center;
+
     border: none;
     background-color: #5956e9;
     width: 204px;
@@ -98,7 +108,7 @@ nav a:hover {
     transition: 1s all;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
 }
-
+*/
 .botao-dois:hover {
     transform: scale(1.1);
 }
